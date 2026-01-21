@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/opt/homebrew/bin/python3.11:*)",
+      "Bash(python -c \"from composio import Composio; composio = Composio\\(api_key=''ak_fcHbs_GcFceIZPmuRq7z''\\); session = composio.create\\(user_id=''claude_user''\\); print\\(session.mcp.url\\)\")",
+      "Bash(pip install:*)"
+    ]
+  }
+}
